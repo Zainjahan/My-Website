@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+   text-decoration: none;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  p{
+    color:#fff;
+  }
+
+  .row{
+    background: #2824d5;
+  }
+  .a{
+    text-decoration: none;
+    line-height: 1;
+    color: #fff;
+
+  }
+  img{
+    background-color: gray;
+  }
+
