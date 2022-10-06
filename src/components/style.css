@@ -1,36 +1,190 @@
 * {
-    box-sizing: border-box;
-   text-decoration: none;
-  }
-  
-  .column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    height: 300px; 
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    
-  }
-  
-  p{
-    color:#fff;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 115%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+p {
+  color: #fff;
+}
+
+.row {
+  background: blue;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+    font-family: "Segoe UI",Sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1.4em;
+    text-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+
+.section{
+  margin-bottom: -74%;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+    font-family: "Segoe UI",Sans-serif;
+    font-size: 25.25px;
+    font-weight: 400;
+    line-height: 1.4em;
+    text-shadow: 0 3px 4px rgb(0 0 0 / 16%)
+}
+.a {
+  text-decoration: none;
+  line-height: 1;
+  color: #fff;
+
+}
+
+img {
+  background-color: gray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+h1 {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 300;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+}
+
+
+.a{
+  text-align: left;
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 4.75em;
+  font-weight: 900;
+  line-height:1.2em;
+  letter-spacing:-1.1px;
+}
+.b{
+  color: #fff;
+  font-size: 5em;
+  font-weight: 300;
+  line-height: .95em;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+}
+
+h1 span {
+  font-size: 40px;
+  margin-left: 40px;
+  text-align: left;
+  color: #fff;
+}
+
+.message {
+  background-color: black;
+  color: #fff;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  animation: openclose 10s ease-in-out infinite;
+}
+
+.word1,
+.word2,
+.word3 {
+  font-family: tahoma;
+  text-align: left;
+  color: #fff;
+}
+
+@keyframes openclose {
+  0% {
+    top: 1rem;
   }
 
-  .row{
-    background: #2824d5;
-  }
-  .a{
-    text-decoration: none;
-    line-height: 1;
-    color: #fff;
-
-  }
-  img{
-    background-color: gray;
+  5% {
+    top: 2rem;
   }
 
+  15% {
+    top: 3rem;
+  }
+
+  30% {
+    top: 0.2rem;
+  }
+
+  33% {
+    top: 0.2rem;
+  }
+
+  35% {
+    top: 0.2rem;
+  }
+
+  38% {
+    top: -4.5rem;
+
+  }
+
+  48% {
+    top: -4.5rem;
+  }
+
+  62% {
+    top: -4.5rem;
+  }
+
+  66% {
+    top: -4.5rem;
+  }
+
+  71% {
+    top: -9rem;
+  }
+
+  86% {
+    top: -9rem;
+  }
+
+  95% {
+    top: -9rem;
+  }
+
+  98% {
+    top: -9rem;
+  }
+
+  100% {
+    top: 0;
+  }
+}

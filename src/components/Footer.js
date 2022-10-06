@@ -11,8 +11,8 @@ export default function Footer() {
                     All rights Reserved</h4>
             </div>
             <div class="column" >
-                <h2>Explore</h2>
-                <a color='#fff' href="aboutus">About Us</a>
+                <h4>Explore</h4>
+                <a  href="aboutus">About Us</a>
                 <br />
                 <a  href="portfolio">Portfolio</a>
                 <br />
@@ -22,7 +22,7 @@ export default function Footer() {
 
             </div>
             <div class="column" >
-                <h2>Visit</h2>
+                <h4>Visit</h4>
                 <p>Office @ Atlanta, USA 205 Market Pl Suite 200, Roswell, GA 30075
                 </p><br />
                 <p>Office @ London, UK 67 Ena Road, Norbury, London Sw16 4JE
@@ -31,7 +31,7 @@ export default function Footer() {
                 </p>
             </div>
             <div class="column" >
-                <h2>Contact</h2>
+                <h4>Contact</h4>
                 <p>contact@atompoint.com</p><br />
                 <p>+1 618 596 3276</p><br />
                 <p>+92 213 7235458

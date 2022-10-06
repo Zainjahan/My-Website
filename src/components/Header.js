@@ -97,19 +97,10 @@ function Header(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex' ,width:"100%"}}>
       <AppBar component="nav">
         <Toolbar>
           <FrontPic />
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' } }}
-          >
-            <img width="456" height="118" src="https://atompoint.com/wp-content/uploads/2020/09/logo-white_2x_optimized.png" class="attachment-full size-full entered lazyloaded" alt="" data-lazy-src="https://atompoint.com/wp-content/uploads/2020/09/logo-white_2x_optimized.png" data-ll-status="loaded"></img>
-          </IconButton>
           <Typography
             variant="h6"
             component="div"
