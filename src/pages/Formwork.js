@@ -25,24 +25,37 @@ export const Formwork = () => {
       </p>
       <label className='head3' >What do you want to build? </label><br />
       <div className='head4'>
+        <span className='new'>
         <input type="radio" value="Mobile App" />
         <label >Mobile App
         </label>
+        </span>
+        <span className='new'>
         <input type="radio" value="Website" />
         <label >Website</label>
-        <input type="radio" value="Customization" /><br/></div>
-        <div className='head4'>
+        </span>
+        <span className='new'>
+        <input type="radio" value="Customization" /></span>
+        <span>
         <label >Customization</label>
+        <br/>
         <input type="radio" value="MVP Development" />
+        </span>
+        <span  className='new'>
         <label >MVP Development
         </label>
         <input type="radio" value="Startup Incubation" />
+        </span>
+        <span className='new'>
         <label >Startup Incubation
         </label>
+        </span>
+        <span className='new'>
         <input type="radio" value="Product Development" />
         <label >Product Development
-        </label></div><br />
-      <div className='head5'>
+        </label></span></div>
+  
+<br/>      <div className='head5'>
         <h1 className='head5'>Tell us briefly about your idea and requirements</h1>
         <textarea name="message" rows="10" cols="80">
         </textarea></div><br />

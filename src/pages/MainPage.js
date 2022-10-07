@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Button from '@mui/material/Button';
 import SwipeableTextMobileStepper from '../pages/SwipeableTextMobileStepper';
 import { Formwork } from './Formwork';
+import TemporaryDrawer from './TemporaryDrawer';
 
 
 export default function MainPage() {
@@ -25,7 +26,7 @@ export default function MainPage() {
         </h1>
         <h1 className='b'>digital products <br /> & experiences.</h1>
       </section>
-      
+      <TemporaryDrawer/>
 
       <section1>
         <h2>We are a team of diverse & collaborative tech geeks who love to <br /> solve real-world problems through perfect synergy between<br /> cutting-edge technology, design and process

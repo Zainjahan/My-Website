@@ -23,7 +23,7 @@ p {
 }
 
 .row {
-  background: blue;
+  background: #fff;
 }
 
 h2 {
@@ -197,7 +197,7 @@ h1 span {
   color: #000;
   font-size: "42px";
   font-weight: 800;
-  margin-right: 46%;
+  margin-right: 70%;
   text-align: left;
 }
 
@@ -217,8 +217,11 @@ h1 span {
 
 .head3 {
   margin-left: 4%;
-  color: black;
-  font-weight: 700px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 800px;
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 .head3:after{
   content:"*";
@@ -227,24 +230,31 @@ h1 span {
 .head4 {
   display: flex;
   align-items: center;
-  flex-basis: 15%;
+  flex-basis: 13%;
   justify-content: left;
   margin-bottom: 15px;
 margin-right: "10px";
+flex-wrap: wrap;
 }
 
 .head5 {
+  color: #000;
+
   font-size: 18px;
   font-weight: 700;
   margin-left: 3%;
 }
 
-.textarea {
-  margin-left: 5%;
+.head10 {
+border: 5px solid black;
+border-radius: 5px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+
 }
 
 .head7 {
-  width: 101%;
+  width: 87%;
 }
 
 .head8 {
@@ -254,13 +264,37 @@ margin-right: "10px";
 input {
   padding: 10px;
   border-radius: 15px;
-  width: 100%;
+  width: 87%;
   margin: 5px;
 
 }
 
+.button1{
+
+}
+.radio-btns{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-right: 10px;
+    flex-shrink: 0;
+}
+
+input[type = "radio"]{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+
+.new{
+  margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
 input[type=submit] {
-  background-color: #302dd6;
+  background-color: white;
   color: white;
   padding: 12px 20px;
   border: none;
