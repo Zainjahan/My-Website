@@ -25,32 +25,35 @@ p {
 .row {
   background: blue;
 }
-h2{
+
+h2 {
   display: flex;
   justify-content: center;
   text-align: center;
   color: #fff;
-    font-family: "Segoe UI",Sans-serif;
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 1.4em;
-    text-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+  font-family: "Segoe UI", Sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.4em;
+  text-shadow: 0 1px 4px rgb(0 0 0 / 30%);
 }
 
-.section{
+.section {
   margin-bottom: -74%;
 }
-h3{
+
+h3 {
   display: flex;
   justify-content: center;
   text-align: center;
   color: #fff;
-    font-family: "Segoe UI",Sans-serif;
-    font-size: 25.25px;
-    font-weight: 400;
-    line-height: 1.4em;
-    text-shadow: 0 3px 4px rgb(0 0 0 / 16%)
+  font-family: "Segoe UI", Sans-serif;
+  font-size: 25.25px;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-shadow: 0 3px 4px rgb(0 0 0 / 16%)
 }
+
 .a {
   text-decoration: none;
   line-height: 1;
@@ -83,15 +86,16 @@ h1 {
 }
 
 
-.a{
+.a {
   text-align: left;
-  font-family: "Segoe UI",Sans-serif;
+  font-family: "Segoe UI", Sans-serif;
   font-size: 4.75em;
   font-weight: 900;
-  line-height:1.2em;
-  letter-spacing:-1.1px;
+  line-height: 1.2em;
+  letter-spacing: -1.1px;
 }
-.b{
+
+.b {
   color: #fff;
   font-size: 5em;
   font-weight: 300;
@@ -188,3 +192,85 @@ h1 span {
     top: 0;
   }
 }
+
+.head1 {
+  color: #000;
+  font-size: "42px";
+  font-weight: 800;
+  margin-right: 46%;
+  text-align: left;
+}
+
+.head2 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-left: 4%;
+  
+}
+
+.cont1 {
+  width: 50%;
+  height: 50px;
+}
+
+.head3 {
+  margin-left: 4%;
+  color: black;
+  font-weight: 700px;
+}
+.head3:after{
+  content:"*";
+  color:red
+}
+.head4 {
+  display: flex;
+  align-items: center;
+  flex-basis: 15%;
+  justify-content: left;
+  margin-bottom: 15px;
+margin-right: "10px";
+}
+
+.head5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 3%;
+}
+
+.textarea {
+  margin-left: 5%;
+}
+
+.head7 {
+  width: 101%;
+}
+
+.head8 {
+  margin-left: 5%;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  margin: 5px;
+
+}
+
+input[type=submit] {
+  background-color: #302dd6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+  cursor: pointer;
+  float: right;
+}
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */

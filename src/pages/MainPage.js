@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Button from '@mui/material/Button';
 import SwipeableTextMobileStepper from '../pages/SwipeableTextMobileStepper';
-
+import { Formwork } from './Formwork';
 
 
 export default function MainPage() {
