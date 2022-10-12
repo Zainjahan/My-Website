@@ -65,71 +65,20 @@ export default function TemporaryDrawer() {
         <Box
             sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 610, padding: "2% 7%" }}
             role="presentation"
-            onClick={toggleDrawer(anchor, false)}
-            onKeyDown={toggleDrawer(anchor, false)}
+            // onKeyDown={toggleDrawer(anchor, false)}
         >
-                                <CCloseButton marginLeft={96}/>
+            {/* <CCloseButton marginLeft={"82%"} /> */}
 
             <form ref={form} onSubmit={sendEmail} >
                 <div>
-                <h2 className='head1' >Let's Talk!</h2>
+                    <h2 className='head1' >Let's Talk!</h2>
                 </div>
-                <p className='head2'>Tell us about your needs and challenges. Together, we can craft a powerful solution for your business.
+                <p className='head2'>Tell us about your needs and challenges. Together, we can <br/> craft a powerful solution for your business.
                 </p>
-                <hr class="solid"/>
-                
+                <hr class="solid" />
+
                 <label className='head3' >What do you want to build? </label><br />
 
-                {/* <span className='new'>
-        <input type="radio" value="Mobile App" />
-        <label >Mobile App
-        </label>
-        </span>
-        <span className='new'>
-        <input type="radio" value="Website" />
-        <label >Website</label>
-        </span>
-        <span className='new'>
-        <input type="radio" value="Customization" /></span>
-        <span>
-        <label >Customization</label>
-        <br/>
-        <input type="radio" value="MVP Development" />
-        </span>
-        <span  className='new'>
-        <label >MVP Development
-        </label>
-        <input type="radio" value="Startup Incubation" />
-        </span>
-        <span className='new'>
-        <label >Startup Incubation
-        </label>
-        </span>
-        <span className='new'>
-        <input type="radio" value="Product Development" />
-        <label >Product Development
-        </label></span></div> */}
-                {/* <fieldset>
-      <div class="some-class">
-        <input type="radio" class="radio" name="x" value="y" id="y" />
-        <label for="y">Thing 1</label>
-        <input type="radio" class="radio" name="x" value="z" id="z" />
-        <label for="z">Thing 2</label>
-        <input type="radio" class="radio" name="x" value="y" id="y" />
-        <label for="y">Thing 1</label><br/>
-        <input type="radio" class="radio" name="x" value="y" id="y" />
-        <label for="y">Thing 1</label>
-        <input type="radio" class="radio" name="x" value="z" id="z" />
-        <label for="z">Thing 2</label>
-        <input type="radio" class="radio" name="x" value="y" id="y" />
-        <label for="y">Thing 1</label>
-      </div>
-    </fieldset> */}
-                {/* <div>
-    <input type="radio">Mobile App</input>
-    <input type="radio">Website</input>
-    <input type="radio">Customization</input>
-</div> */}
                 <RadioGroup
                     row
                     aria-labelledby="demo-row-radio-buttons-group-label"
@@ -148,32 +97,9 @@ export default function TemporaryDrawer() {
 
 
 
-                {/* <div class="radio-btns">
-
-                    <input type="radio" id="child" name="age" value="child" />
-                    <label for="child">Mobile App</label>
-                    <input type="radio" Style="MarginRight:-7%" id="adult" name="age" value="adult" />
-                    <label for="adult">Website</label><br />
-                    <input type="radio" id="senior" name="age" value="senior" />
-                    <label for="senior">Customization</label><br />
-                </div>
-                <div class="radio-btns">
-
-                    <input type="radio" id="child" name="age" value="child" />
-                    <label for="child">MVP Development
-                    </label>
-                    <input type="radio" id="adult" name="age" value="adult" />
-                    <label for="adult">Startup Incubation
-                    </label><br />
-                    <input type="radio" id="senior" name="age" value="senior" />
-                    <label for="senior">Product Development</label>
-
-
-                </div>
- */}
-
-                <br />    
-                  <div >
+            
+                <br />
+                <div >
                     <h1 className='head5'>Tell us briefly about your idea and requirements</h1>
                     <textarea className='head10' name="message" rows="10" cols="65">
                     </textarea></div><br />
@@ -186,7 +112,7 @@ export default function TemporaryDrawer() {
 
                 <input type="text" name="user_name" placeholder='Name' />
                 <input type="email" name="user_email" placeholder='Email' />
-                <input type="Contact Number" name="user_contactnumber" placeholder='Contact Number' />
+                <input type="Contact Number" name="user_contactnumber" placeholder='Contact Number' /><br/>
                 <ReCAPTCHA
                     sx={{ Background: "#1a73e8", color: "white", display: "flex", flexBasis: "166px" }}
                     sitekey="YOUR-SITE-KEY"
@@ -195,7 +121,7 @@ export default function TemporaryDrawer() {
 
                 <div class="row">
 
-                    <Button type="submit" value="send" variant="contained" sx={{ display: "flex", justifyContent: "center", fontFamily: "Sans-serif", fontSize: '13px', textWeight: 600, textTransform: "uppercase", fill: "#000000", borderRadius: "25px 25px 25px 25px", padding: "17px 34px", marginLeft: "73%" }}>Submit <ArrowForwardIcon /></Button>
+                    <Button type="submit" value="send" variant="contained" sx={{ display: "flex", justifyContent: "center", fontFamily: "Sans-serif", fontSize: '13px', textWeight: 600, textTransform: "uppercase", fill: "#000000", borderRadius: "25px 25px 25px 25px", padding: "17px 34px", marginLeft: "65%" }}>Submit <ArrowForwardIcon /></Button>
                 </div>
             </form>    </Box>
     );

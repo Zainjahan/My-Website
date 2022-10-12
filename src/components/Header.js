@@ -98,8 +98,8 @@ function Header(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' ,width:"100%"}}>
-      <AppBar component="nav">
+    <Box sx={{ display: 'flex' ,width:"100%",justifyContent:"right",backgroundColor:"black"}}>
+      <AppBar component="nav" >
         <Toolbar>
           <FrontPic />
           <Typography
@@ -108,7 +108,7 @@ function Header(props) {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: 'none', sm: 'block' },width:"33%",fontFamily:"Segoe UI,Sans-serif" }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: '#fff' }}>
                 {item}
