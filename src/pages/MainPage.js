@@ -14,13 +14,9 @@ import Careers from './Careers';
 import Carousel from 'react-bootstrap/Carousel';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
-
-
-
 import BootstrapCarousel from './BootstrapCarousel';
 import { Typography } from '@mui/material';
-import CrouselSlide from './CrouseSlidel';
-
+import CrouselSlide from './CrouseSlide';
 
 
 
