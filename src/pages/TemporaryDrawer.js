@@ -23,11 +23,6 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import CCloseButton from 'react-bootstrap/CloseButton';
 
 
-
-
-
-
-
 export default function TemporaryDrawer() {
     const [state, setState] = React.useState({
         top: false,
@@ -65,15 +60,15 @@ export default function TemporaryDrawer() {
         <Box
             sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 610, padding: "2% 7%" }}
             role="presentation"
-            // onKeyDown={toggleDrawer(anchor, false)}
+        // onKeyDown={toggleDrawer(anchor, false)}
         >
-            {/* <CCloseButton marginLeft={"82%"} /> */}
+            <CCloseButton  variant='##2824d5' className='cbutton'/>
 
             <form ref={form} onSubmit={sendEmail} >
                 <div>
                     <h2 className='head1' >Let's Talk!</h2>
                 </div>
-                <p className='head2'>Tell us about your needs and challenges. Together, we can <br/> craft a powerful solution for your business.
+                <p className='head2'>Tell us about your needs and challenges. Together, we can <br /> craft a powerful solution for your business.
                 </p>
                 <hr class="solid" />
 
@@ -94,10 +89,6 @@ export default function TemporaryDrawer() {
                     <FormControlLabel sc={{ marginright: "10px", width: "160px", height: "20px" }} value="Product Development" control={<Radio />} label="Product Development" />
                 </RadioGroup>
 
-
-
-
-            
                 <br />
                 <div >
                     <h1 className='head5'>Tell us briefly about your idea and requirements</h1>
@@ -109,10 +100,11 @@ export default function TemporaryDrawer() {
                     <input className='head7' type="date" id="birthday" name="birthday" /><br /></div>
                 <h1 className='head5'>Your contact details
                 </h1>
-
-                <input type="text" name="user_name" placeholder='Name' />
-                <input type="email" name="user_email" placeholder='Email' />
-                <input type="Contact Number" name="user_contactnumber" placeholder='Contact Number' /><br/>
+                <div class="inputc">
+                    <input type="text" name="user_name" placeholder='Name' />
+                    <input type="email" name="user_email" placeholder='Email' />
+                    <input type="Contact Number" name="user_contactnumber" placeholder='Contact Number' /> </div>
+                <br />
                 <ReCAPTCHA
                     sx={{ Background: "#1a73e8", color: "white", display: "flex", flexBasis: "166px" }}
                     sitekey="YOUR-SITE-KEY"
@@ -120,8 +112,7 @@ export default function TemporaryDrawer() {
                 />
 
                 <div class="row">
-
-                    <Button type="submit" value="send" variant="contained" sx={{ display: "flex", justifyContent: "center", fontFamily: "Sans-serif", fontSize: '13px', textWeight: 600, textTransform: "uppercase", fill: "#000000", borderRadius: "25px 25px 25px 25px", padding: "17px 34px", marginLeft: "65%" }}>Submit <ArrowForwardIcon /></Button>
+                    <Button type="submit" value="send" variant="contained" sx={{ fontFamily: "Sans-serif", fontSize: '14px', textWeight: 700, textTransform: "uppercase", borderRadius: "25px 25px 25px 25px", padding: "17px 34px", borderWidth: 0, borderStyle: "solid", marginLeft: "101%", width: "40%" }}>Submit <ArrowForwardIcon /></Button>
                 </div>
             </form>    </Box>
     );

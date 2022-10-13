@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import Button from '@mui/material/Button';
 import SwipeableTextMobileStepper from '../pages/SwipeableTextMobileStepper';
 import { Formwork } from './Formwork';
-import TemporaryDrawer from './TemporaryDrawer';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -16,12 +15,25 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import BootstrapCarousel from './BootstrapCarousel';
 import { Typography } from '@mui/material';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import CrouselSlide from './CrouseSlide';
+import { styled } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
+
+
 
 
 
 export default function MainPage(props) {
   // const classes = useStyles();
+  const Item = styled(Paper)(({ theme }) => ({
+    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+    ...theme.typography.body2,
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  }));
+
 
 
   const [index, setIndex] = useState(0);
@@ -48,25 +60,58 @@ export default function MainPage(props) {
         <h2>Our Featured Innovations</h2>
       </div>
       <div>
-      <CrouselSlide/>
+        <CrouselSlide />
       </div>
-      <Box
-      sx={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        '& > :not(style)': {
-          m: 1,
-          width: 128,
-          height: 128,
-        },
-      }}
-    >
-      <Typography sx={{color:"##060515",fontFamily:"'segoe ui',Sans-serif",fontSize:"36px",fontWeight:900,marginLeft:"2%"}}>Atompoint + You
+      <div>
+        <Box sx={{ flexGrow: 1 }}>
+          <Grid container spacing={2}>
+            <Grid item xs={3}>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
 
-</Typography>
+            </Grid>
+            <Grid item xs={3}>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
 
-    </Box>
+            </Grid>
+            <Grid item xs={3}>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>          <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
 
+            </Grid>
+            <Grid item xs={3}>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              </Item>
+
+            </Grid>
+          </Grid>
+        </Box>
+
+      </div>
 
       <Footer></Footer>
     </div>

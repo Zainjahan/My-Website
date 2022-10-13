@@ -1,11 +1,11 @@
 .row {
   background: #fff;
+  width: 66%;
 } 
 .head1 {
   color: #000;
   font-size: "42px";
   font-weight: 800;
-  margin-right: 70%;
   text-align: left;
 } 
 
@@ -43,6 +43,7 @@
   color: #000;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1;
 }
 
 .head5:after {
@@ -56,11 +57,14 @@
   width: 50px;
   margin-right: 95%;
 } 
-
+.inputc{
+  line-height: 1;
+}
  .head11 {
   color: #000;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1;
 } 
 
 
@@ -75,7 +79,7 @@
  .head7 {
   border-radius: 25px 25px 25px 25px;
 
-  width: 80%;
+  width: 96%;
 } 
 .head8 {
   margin-left: 5%;
@@ -84,16 +88,16 @@
 input {
   padding: 10px;
   border-radius: 15px;
-  width: 81%;
+  width: 96%;
   margin: 5px;
-
+line-height: 2;
 }
-
+/* 
 .background{
   background-image: url('');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center top; }
+  background-position: center top; } */
 
   .heading-title{
     color:#fff;
@@ -101,9 +105,12 @@ input {
     font-weight: 300;
     text-shadow: 0 2px 4px rgb(0 0 0 / 30%);
     line-height: 1;
-    margin: 0;
   }
 
+  .cbutton{
+    margin-left: 100%;
+    background: #2824d5;
+  }
   .transition{
     color:#000;
     margin-top: -3%;
@@ -163,11 +170,10 @@ input {
     width: 70%;
     margin: auto;
   }
-.row{
+.rowstyle{
   width: 100%;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
 }
 
 .column{
@@ -178,5 +184,10 @@ input {
 
 .main1{
   background: #2824d5;
-  margin-left: 11%;
+  position:relative;
+  z-index: 7;
+}
+
+.links{
+  line-height: 2;
 }
