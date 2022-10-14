@@ -63,55 +63,99 @@ export default function MainPage(props) {
         <CrouselSlide />
       </div>
       <div>
-        <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={2}>
-            <Grid item xs={3}>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+        <div class="bgtext">
+          <h1 className='service1'>What We Do</h1>
+
+        </div>
+
+        <h1 className='service1'>Our Services</h1>
+        <p className='service2'>We work with enterprises, organizations, and businesses from various<br /> industries, helping them create and launch products that are used by<br /> thousands of customers around the world.
+        </p>
+      </div>
+      <br />
+        <Box>
+          <Grid container  >
+            <Grid item lg={6} >
+              <Item height="10px">
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37136.svg" alt='' />
+                <h1 className='name'>Digital Products<br/> & Engineering</h1>
+                <p>Our expertise is building, connecting, and scaling digital products. We advise, manage, architect, and develop, using agile methods to ensure on-time delivery.
+                </p>
               </Item>
 
             </Grid>
-            <Grid item xs={3}>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+            <Grid item lg={3}>
+              <Item>
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37158.svg" alt='' />
+                <h1 className='web'>Web<br/>
+                  Development
+                </h1>
               </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-
             </Grid>
-            <Grid item xs={3}>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>          <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+            <Grid item lg={3}>
+              <Item sx={{marginTop:"-7%"}}>
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37159.svg" alt='' />
+                <h1 className='web'>Mobile
+                  Development
+                </h1>
               </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-
             </Grid>
-            <Grid item xs={3}>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
-              <Item>      <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
-              </Item>
+          </Grid>
+          <Grid container >
+            <Grid item lg={6}>
+              <Item>
 
+              </Item>
+            </Grid>
+            <Grid item lg={3}>
+              <Item sx={{marginTop:"-78%"}}>
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37160.svg" alt='' />
+                <h1>UI/UX &
+                  Branding
+                </h1>
+              </Item>
+            </Grid>
+            <Grid item lg={3}>
+              <Item sx={{marginTop:"-84%",height:"2%"}}>
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37161.svg" alt='' />
+                <h1>Cybersecurity
+                </h1>
+              </Item>
+            </Grid>
+          </Grid>
+          <Grid container >
+            <Grid item lg={3}>
+              <Item className='last'>
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37165.svg" alt='' />
+                <h1>Cloud
+                  Solutions
+                </h1>
+              </Item>
+            </Grid>
+            <Grid item lg={3}>
+              <Item className='last'>
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37164.svg" alt='' />
+                <h1>Extended
+                  Team</h1>
+              </Item>
+            </Grid>
+            <Grid item lg={3}>
+              <Item className='last'>
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37163.svg" alt='' />
+                <h1>Startup
+                  Co-Create</h1>
+              </Item>
+            </Grid>
+            <Grid item lg={3}>
+              <Item className='last'>
+                <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37162.svg" alt='' />
+                <h1>Custom
+                  Integration
+                </h1>
+              </Item>
             </Grid>
           </Grid>
         </Box>
-
-      </div>
 
       <Footer></Footer>
     </div>
