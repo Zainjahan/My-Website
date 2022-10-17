@@ -106,7 +106,17 @@ line-height: 2;
     text-shadow: 0 2px 4px rgb(0 0 0 / 30%);
     line-height: 1;
   }
-
+  .heading-title{
+    color:black;
+    font-size: 5em;
+    font-weight: 300;
+    text-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    line-height: 1;
+  }
+.heading-title2{
+  font-weight: bold;
+  color: #2824d5;
+}
   .cbutton{
     margin-left: 100%;
   }
@@ -228,4 +238,138 @@ line-height: 2;
 }
 .links{
   line-height: 2;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin-left: 20px;
+  margin-top: 6%;
+  gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d"
+    "e e e e f f f f"
+    "e e e e f f f f";
+}
+.item1 {
+  grid-area: a;
+}
+.item2 {
+  grid-area: b;
+  align-self: start;
+}
+.item3 {
+  grid-area: c;
+  align-self: end;
+}
+.item4 {
+  grid-area: d;
+  align-self: center;
+}
+.item5 {
+  grid-area: e;
+  align-self: start;
+}
+.item6 {
+  grid-area: f;
+  align-self: end;
+}
+
+.our{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.experience{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 29.2px;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1.2em;
+
+}
+
+.ourtec{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.latest{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 29.2px;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1.2em;
+}
+
+.using{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.lean{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 29.2px;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1.2em;
+}
+
+.we{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.design{
+  margin:-20% 0 0;
+}
+
+.design1{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #2824d5, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.tech{
+  margin-left: -8%;
+}
+
+.tech1{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  letter-spacing: 3px;
+
 }
