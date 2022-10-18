@@ -373,3 +373,83 @@ body {
   letter-spacing: 3px;
 
 }
+
+.num{
+  display: flex;
+  justify-content: center;
+}
+
+.sect{
+  margin-top: -20%;
+}
+
+@keyframes example {
+  0%   { left:0px; right:0px;}
+  25%  { left:200px; right:0px;}
+  50%  { left:200px; right:200px;}
+  75%  { left:0px; right:200px;}
+  100% {left:0px; right:0px;}
+}
+.ani {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.imagea{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+.element {
+  height: 249px;
+  width: 400px;
+  background-color: red;
+  animation: 
+    pulse 8s ease infinite alternate, 
+    nudge 8s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: red;
+  }
+  50% {
+    background-color: orange;
+  }
+}
+.left{
+  margin-left: 30%;
+}
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(120px, 0);
+  }
+  
+  80% {
+    transform: translate(-120px, 0);
+  }
+}
+
+
+

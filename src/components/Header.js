@@ -98,8 +98,8 @@ function Header(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' ,width:"100%",justifyContent:"right",backgroundColor:"black"}}>
-      <AppBar component="nav" >
+    <Box sx={{ display: 'flex' ,width:"100%",justifyContent:"right"}}>
+      <AppBar component="nav" sx={{background:"transparent"}} >
         <Toolbar>
           <FrontPic />
           <Typography
@@ -108,7 +108,7 @@ function Header(props) {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' },width:"33%",fontFamily:"Segoe UI,Sans-serif" }}>
+          <Box sx={{ display: { xs: 'none', sm: 'block' },width:"33%",fontFamily:"Segoe UI,Sans-serif",position:"static" }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: '#fff' }}>
                 {item}
@@ -124,6 +124,7 @@ function Header(props) {
               disableElevation
               onClick={handleClick}
               endIcon={<KeyboardArrowDownIcon />}
+              sx={{backgroundColor:"transparent"}}
             >
               Careers
             </Button>
