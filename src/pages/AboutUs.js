@@ -36,13 +36,14 @@ function AboutUs() {
         <p>We are a team of experience and passionate creatives,developers and engineers<br />with diverse skillset in the design and development industry.Our work is <br />meticulously curated to the business challenge at hand. </p>
       </section>
       <br />
-      <section>
+      <br/>
+      <section className='secs'>
         <h2 className='heading1'>"We are inspired by the technicalities of nature, the algorithms, the patterns and the anomalies."</h2>
         <br />
         <h3 className='heading2'>Yunus Jamal - Founder
 
         </h3></section><br />
-      <Box>
+      <Box sx={{marginTop:"15%"}}>
         <Grid container spacing={2} columns={16}>
           <Grid item xs={8}>
             <h1 className='left'>
@@ -105,7 +106,7 @@ function AboutUs() {
       </Box>
       <Box>
         <h1 className='num'>In Numbers</h1>
-        <Grid container spacing={2} columns={16}>
+        <Grid container spacing={2} columns={20}>
           <Grid item xs={8} md={8} lg={8}>
             <h1 className='left'>Evolving <br />Digital Solutions</h1>
           </Grid>

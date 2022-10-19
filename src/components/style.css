@@ -452,4 +452,76 @@ body {
 }
 
 
+.create{
+  display: flex;
+  justify-content:center;
+  color: #fff;
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  text-shadow: 0 3px 4px rgb(0 0 0 / 30%);
+}
+.cloud{
+  font-size: 36px;
+  line-height: 1.2em;
+}
+.what{
+  color:#3085d5;
+  font-size: 18px;
+  font-weight: 600;
+}
+.top{
+  margin-top: -3%;
+}
+.top2{
+  margin-top: -55%;
+  margin-left: -106%;
+
+}
+.top3{
+  margin-top: -75%;
+  margin-left: -102%;
+
+}
+
+.secs{
+  
+}
+.top4{
+  margin-top: -70%;
+  margin-left: -102%;
+
+}
+.top5{
+  margin-top: -60%;
+  margin-left: -102%;
+
+}
+
+
+.what1{
+  color: #d7384f;
+}
+.what2{
+  color: #f28422;
+}
+.top1{
+  margin-left: -100%;
+  margin-top: -90%;
+  height: 10%;
+  width: 26%;
+}
+.protect{
+  font-size: 16px;
+}
+.create1{
+  display: flex;
+  justify-content:center;
+  color: #fff;
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-shadow: 0 3px 4px rgb(0 0 0 / 30%);
+}
+
 
