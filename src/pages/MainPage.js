@@ -45,7 +45,7 @@ export default function MainPage(props) {
 
   return (
     <div class="background">
-      <Header></Header>
+      {/* <Header></Header> */}
       <Careers />
 
       <div>
@@ -202,7 +202,7 @@ export default function MainPage(props) {
 
         </div>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
 
   )

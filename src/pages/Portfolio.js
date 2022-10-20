@@ -11,7 +11,7 @@ import Header from '../components/Header';
 export default function Portfolio() {
   return (
     <div className='cont1'>
-      <Header></Header>
+      {/* <Header></Header> */}
 
       <section className='separate'>
         <h1 className='create'>Our Creations</h1>
@@ -211,7 +211,7 @@ export default function Portfolio() {
 
 
 
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
 
     </div>)
 }

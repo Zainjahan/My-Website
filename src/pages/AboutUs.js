@@ -25,7 +25,7 @@ function AboutUs() {
 
 
     <div className='cont1'>
-      <Header></Header>
+      {/* <Header></Header> */}
 
 
       <section className='separate'>
@@ -36,14 +36,14 @@ function AboutUs() {
         <p>We are a team of experience and passionate creatives,developers and engineers<br />with diverse skillset in the design and development industry.Our work is <br />meticulously curated to the business challenge at hand. </p>
       </section>
       <br />
-      <br/>
+      <br />
       <section className='secs'>
         <h2 className='heading1'>"We are inspired by the technicalities of nature, the algorithms, the patterns and the anomalies."</h2>
         <br />
         <h3 className='heading2'>Yunus Jamal - Founder
 
         </h3></section><br />
-      <Box sx={{marginTop:"15%"}}>
+      <Box sx={{ marginTop: "15%" }}>
         <Grid container spacing={2} columns={16}>
           <Grid item xs={8}>
             <h1 className='left'>
@@ -93,11 +93,13 @@ function AboutUs() {
           </Grid>
           <Grid item xs={8}>
             <div class="element">
-              <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37160.svg" alt='' />
+
             </div>
             <div class="element">
-              <img src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60" alt='' />
+              <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37160.svg" alt='' />
             </div>
+
 
 
           </Grid>
@@ -148,7 +150,7 @@ function AboutUs() {
         </Grid>
 
       </Box>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
 
     </div>
   )

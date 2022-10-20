@@ -17,6 +17,8 @@ import Button from '@mui/material/Button';
 import FrontPic from '../assets/FrontPic';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import TemporaryDrawer from '../pages/TemporaryDrawer';
+import Link from '@mui/material/Link';
+
 const StyledMenu = styled((props) => (
   <Menu
     elevation={0}
@@ -87,6 +89,7 @@ function Header(props) {
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText primary={item} />
+              
             </ListItemButton>
           </ListItem>
         ))}
@@ -109,12 +112,8 @@ function Header(props) {
           >
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' },width:"33%",fontFamily:"Segoe UI,Sans-serif",position:"static" }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
-            ))}
-
+              <Link sx={{marginRight:"6%",color:"white",textDecoration:"none"}} href="/aboutus">About Us</Link>
+              <Link sx={{marginRight:"4%",color:"white",textDecoration:"none"}} href="/portfolio">Portfolio</Link>
             <Button
               id="demo-customized-button"
               aria-controls={open ? 'demo-customized-menu' : undefined}
