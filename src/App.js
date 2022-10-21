@@ -19,7 +19,6 @@ function App() {
   
   return (
     <React.Fragment>
-    <Navbar/>
     <Header/>
     <Routes>
       <Route path='/' element={<MainPage/>}></Route>

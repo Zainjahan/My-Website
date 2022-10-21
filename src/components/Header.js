@@ -101,10 +101,10 @@ function Header(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' ,width:"100%",justifyContent:"right"}}>
-      <AppBar component="nav" sx={{background:"transparent"}} >
+    <Box sx={{ display: 'flex' ,justifyContent:"right"}}>
+      <AppBar component="nav" sx={{background:"transparent",position:"absolute"}}  >
         <Toolbar>
-          <FrontPic />
+          <FrontPic/>
           <Typography
             variant="h6"
             component="div"

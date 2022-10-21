@@ -48,7 +48,7 @@ export default function MainPage(props) {
       {/* <Header></Header> */}
       <Careers />
 
-      <div>
+      <div className='heads'>
         <h2 className='heading1'>We are a team of diverse & collaborative tech geeks who love to <br /> solve real-world problems through perfect synergy between<br /> cutting-edge technology, design and process
         </h2><br />
         <h3 className='heading2'>Today, we are crafting high-quality mobile apps, enterprise applications,<br /> websites, marketplaces and IoT integrations. Tomorrow, you might see us<br /> making self-generative robots, hoverboards & intergalactic portals.
@@ -64,7 +64,7 @@ export default function MainPage(props) {
         <CrouselSlide />
       </div>
       <div>
-        <div class="bgtext">
+        <div class="bgtext1">
           <h1 className='service1'>What We Do</h1>
 
         </div>
@@ -75,80 +75,84 @@ export default function MainPage(props) {
       </div>
       <br />
       <Box >
-        <Grid container   >
-          <Grid item lg={6} >
-            <Item height="10px">
+        <Grid container >
+          <Grid item xs={12} lg={6} md={8}  >
+            <Item  height="10px" sx={{background:"linear-gradient(15deg,#0c1033 0,rgba(40,36,213,.7539390756302521) 100%)",marginLeft:"4%"}}>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37136.svg" alt='' />
               <h1 className='name'>Digital Products<br /> & Engineering</h1>
-              <p>Our expertise is building, connecting, and scaling digital products. We advise, manage, architect, and develop, using agile methods to ensure on-time delivery.
+              <p className='name1'>Our expertise is building, connecting, and scaling digital <br />products. We advise, manage, architect, and develop, using<br /> agile methods to ensure on-time delivery.
               </p>
             </Item>
 
           </Grid>
-          <Grid item lg={3}>
-            <Item>
+          <Grid item xs={12} lg={3} md={8} >
+            <Item marginLeft={"4%"} sx={{ width: "69%", marginLeft: { xs: "4%", sm: "4%" } ,background:"#252844"}} xs={8} lg={3} md={8} >
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37158.svg" alt='' />
               <h1 className='web'>Web<br />
                 Development
               </h1>
             </Item>
           </Grid>
-          <Grid item lg={3}>
-            <Item sx={{ marginTop: "0%" }}>
-              <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37159.svg" alt='' />
-              <h1 className='web'>Mobile
+          <Grid item sx={{ height: "51%" }} xs={12} lg={3} md={8}>
+            <Item xs={8} sx={{ width: "69%", marginLeft: "-5%",background:"#252844" }}>
+              <img className='classimage' src="https://atompoint.com/wp-content/uploads/2020/08/Group-37159.svg" alt='' />
+              <h1 className='web'>Mobile<br />
                 Development
               </h1>
             </Item>
           </Grid>
         </Grid>
         <Grid container >
-          <Grid item lg={6}>
-            <Item>
-
-            </Item>
+          <Grid item xs={12} lg={3} md={8}>
           </Grid>
-          <Grid item lg={3}>
-            <Item sx={{ marginTop: "-78%" }}>
+          <Grid sx={{ marginLeft: "19%", marginTop: "-17%" }} item xs={8} lg={3} md={8} >
+            <Item sx={{ width: { xs: "69%", sm: "69%",background:"#252844" }, marginLeft: { xs: "14%", sm: "14%", lg: "29%" }, marginTop: { xs: "26%", sm: "26%", lg: "0%" } }} xs={8} lg={3} md={8} >
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37160.svg" alt='' />
-              <h1>UI/UX &
+              <h1 className='web'>UI/UX &<br />
                 Branding
               </h1>
             </Item>
           </Grid>
-          <Grid item lg={3}>
-            <Item sx={{ marginTop: "-84%", height: "2%" }}>
+          <Grid sx={{ marginTop: "-17%", height: "51%", marginLeft: "5%" }} item xs={12} lg={3} md={8}>
+            <Item xs={8} sx={{ width: "69%",background:"#252844" }}>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37161.svg" alt='' />
-              <h1>Cybersecurity
+              <h1 className='web'>Cybersecurity
               </h1>
             </Item>
           </Grid>
         </Grid>
         <Grid container >
-          <Grid item lg={3}>
-            <Item className='last'>
+          <Grid item xs={12} lg={3} md={8}>
+
+          </Grid>
+
+        </Grid>
+        <br />
+        <Grid container >
+          <Grid item xs={12} lg={3} md={8} >
+            <Item xs={8} sx={{background:"#252844",marginLeft:"14%",marginRight:"6%"}} className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37165.svg" alt='' />
               <h1>Cloud
                 Solutions
               </h1>
             </Item>
           </Grid>
-          <Grid item lg={3}>
-            <Item className='last'>
+          <Grid item xs={12} lg={3} md={8}>
+            <Item xs={8} sx={{background:"#252844",marginRight:"4%"}}className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37164.svg" alt='' />
               <h1>Extended
                 Team</h1>
             </Item>
           </Grid>
-          <Grid item lg={3}>
-            <Item className='last'>
+          <Grid item xs={12} lg={3} md={8} >
+            <Item xs={8} sx={{background:"#252844",marginRight:"4%"}} className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37163.svg" alt='' />
               <h1>Startup
                 Co-Create</h1>
             </Item>
           </Grid>
-          <Grid item lg={3}>
-            <Item className='last'>
+          <Grid item xs={12} lg={3} md={8} >
+            <Item xs={8} sx={{background:"#252844",marginRight:"4%"}} className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37162.svg" alt='' />
               <h1>Custom
                 Integration
@@ -157,9 +161,11 @@ export default function MainPage(props) {
           </Grid>
         </Grid>
       </Box>
-      <h1 className='our'>How We Do It</h1>
-      <h1 className='our'>Our Approach
-      </h1>
+      <div className='fourth'>
+        <h1 className='our'>How We Do It</h1>
+        <h1 className='our'>Our Approach
+        </h1>
+      </div>
       <div class="wrapper">
         <div class="item1">
           <AccessAlarmsIcon sx={{ width: "85%", height: "100%" }} />
