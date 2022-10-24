@@ -6,45 +6,48 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function CrouselSlide() {
   return (
-    <div className='caro'>
-      <Carousel>
-        <Carousel.Item interval={1000}>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={500}>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60"
-            alt="Third slide"
-          />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+    <Carousel className='cro'>
+      <Carousel.Item  >
+        <img
+          className="d-block w-50 h-50"
+          src="https://atompoint.com/wp-content/uploads/2020/07/Mockup-Website-Cloudnosys.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
 
-    </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+        <div className='cloud2'>
+          <h2 className='design1'>01 <br /><span>INCUBATED STARTUP
+          </span></h2><br />
+          <h6 className='cloud1'>Cloud Security & <br /> Compliance</h6><br />
+          <h6>Protect your cloud infrastructure from security <br />threats, data loss and compliance risks with real<br /> time monitoring, auditing, and automated<br /> remediation.</h6>
+        </div>
+        <Carousel.Caption>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-50"
+          src="https://atompoint.com/wp-content/uploads/2020/07/Mockup-Website-Cloudnosys.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+        <div className='cloud2'>
+          <h6 className='cloud1'>Manufacturing Plants<br />
+            Efficiency Monitoring</h6><br />
+          <h6>Helping factories become smarter through<br /> digitization of the manufacturing value chain so<br /> companies can monitor the production efficiency<br /> in real time and meet business goals.</h6>
+        </div>
+        <Carousel.Caption>
+
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
   )
 }

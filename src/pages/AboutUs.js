@@ -10,9 +10,6 @@ import Footer from '../components/Footer';
 
 
 function AboutUs() {
-
-
-
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
     ...theme.typography.body2,
@@ -43,7 +40,7 @@ function AboutUs() {
         <h3 className='heading2'>Yunus Jamal - Founder
 
         </h3></section><br />
-      <Box sx={{ marginTop: "15%" }}>
+      <Box sx={{ marginTop: "50%" }}>
         <Grid container spacing={2} columns={16}>
           <Grid item xs={8}>
             <h1 className='left'>
@@ -70,8 +67,8 @@ function AboutUs() {
 
       </Box>
       <br />
-      <Box>
-        <h1 className='num'>In Numbers</h1>
+      <Box sx={{ marginTop: "25%" }}>
+        <h1 className='num'>In Numbers</h1><br />
         <Grid container spacing={2} columns={16}>
           <Grid item xs={8}>
             <h1 className='left'>Officially In <br />3<br />Countries<br />KARACHI,PK<br />LONDON,U.K<br />ATLANTA,U.S.A</h1>
@@ -85,8 +82,8 @@ function AboutUs() {
         </Grid>
 
       </Box>
-      <Box>
-        <h1 className='num'>In Numbers</h1>
+      <Box sx={{ marginTop: "25%" }}>
+        <h1 className='num'>In Numbers</h1><br/>
         <Grid container spacing={2} columns={16}>
           <Grid item xs={8}>
             <h1 className='left'>Happy Family Of <br />25+<br />Countries<br />Team Members</h1>
@@ -106,8 +103,8 @@ function AboutUs() {
         </Grid>
 
       </Box>
-      <Box>
-        <h1 className='num'>In Numbers</h1>
+      <Box sx={{ marginTop: "25%" }}>
+        <h1 className='num'>In Numbers</h1><br/>
         <Grid container spacing={2} columns={20}>
           <Grid item xs={8} md={8} lg={8}>
             <h1 className='left'>Evolving <br />Digital Solutions</h1>
@@ -131,8 +128,8 @@ function AboutUs() {
         </Grid>
 
       </Box>
-      <Box>
-        <h1 className='num'>In Numbers</h1>
+      <Box sx={{ marginTop: "25%" }}>
+        <h1 className='num'>In Numbers</h1><br/>
         <Grid container spacing={2} columns={16}>
           <Grid item xs={8}>
             <h1 className='left'>Experts in <br />30+<br />Technologies</h1>

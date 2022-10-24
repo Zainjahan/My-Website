@@ -78,7 +78,7 @@ export default function MainPage(props) {
         <Grid container >
           <Grid item xs={12} lg={6} md={8}  >
             <Item  height="10px" sx={{background:"linear-gradient(15deg,#0c1033 0,rgba(40,36,213,.7539390756302521) 100%)",marginLeft:"4%"}}>
-              <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37136.svg" alt='' />
+              <img className='imga' src="https://atompoint.com/wp-content/uploads/2020/08/Group-37136.svg" alt='' />
               <h1 className='name'>Digital Products<br /> & Engineering</h1>
               <p className='name1'>Our expertise is building, connecting, and scaling digital <br />products. We advise, manage, architect, and develop, using<br /> agile methods to ensure on-time delivery.
               </p>

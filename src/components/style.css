@@ -33,7 +33,6 @@
 
   .head3:after {
     content: "*";
-    color: red
   }
 
   .head4 {
@@ -203,6 +202,7 @@
     width: 100%;
     display: flex;
     margin-left: 10%;
+    
   }
 
   .column {
@@ -287,6 +287,8 @@
 
   .item1 {
     grid-area: a;
+    width: 12%;
+    margin-left: 24%;
   }
 
   .item2 {
@@ -307,11 +309,16 @@
   .item4 {
     grid-area: d;
     align-self: center;
+    width: 15%;
+    margin-left: 21%;
   }
 
   .item5 {
     grid-area: e;
     align-self: start;
+    width: 32%;
+    margin-left: 25%;
+    margin-top: 9%;
   }
 
   .item6 {
@@ -390,6 +397,7 @@
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
+    
   }
 
   @keyframes gradient {
@@ -457,7 +465,6 @@
   .ani {
     width: 100px;
     height: 100px;
-    background-color: red;
     position: relative;
     animation-name: example;
     animation-duration: 4s;
@@ -503,7 +510,6 @@
   .element {
     height: 249px;
     width: 400px;
-    background-color: red;
     animation:
       pulse 8s ease infinite alternate,
       nudge 8s linear infinite alternate;
@@ -515,7 +521,6 @@
     flex-direction: column;
     height: 249px;
     width: 400px;
-    background-color: red;
     animation:
       pulse 8s ease infinite alternate,
       nudge 8s linear infinite alternate;
@@ -526,11 +531,9 @@
 
     0%,
     100% {
-      background-color: red;
     }
 
     50% {
-      background-color: orange;
     }
   }
 
@@ -788,7 +791,7 @@ input {
   overflow: hidden;
   margin-top: 3%;
   margin-bottom: 0;
-  padding: 0 35px 80px;
+  padding:7%;
 }
 
 .heading3 {
@@ -900,6 +903,7 @@ img {
 
 .last {
   height: 96%;
+  width: 74%;
 }
 
 .web {
@@ -913,6 +917,9 @@ img {
   position: relative;
   z-index: 7;
   margin-top: 25%;
+  overflow-x:hidden ;
+  margin-right: -2%;
+  
 }
 
 .centers {
@@ -1156,7 +1163,6 @@ body {
 .element {
   height: 249px;
   width: 400px;
-  background-color: red;
   animation:
     pulse 8s ease infinite alternate,
     nudge 8s linear infinite alternate;
@@ -1168,7 +1174,6 @@ body {
   flex-direction: column;
   height: 249px;
   width: 400px;
-  background-color: red;
   animation:
     pulse 8s ease infinite alternate,
     nudge 8s linear infinite alternate;
@@ -1179,11 +1184,9 @@ body {
 
   0%,
   100% {
-    background-color: red;
   }
 
   50% {
-    background-color: orange;
   }
 }
 
@@ -1292,9 +1295,10 @@ body {
 .caro {
   width: 127%;
 }
-
+.cont1{
+}
 .bgtext1 {
-  margin-top: 7%;
+  margin-top: 18%;
 }
 
 .fourth {
@@ -1302,4 +1306,24 @@ body {
 }
 .elementor{
   font-size: 16px;
+}
+.cro{
+margin-left: 8%;  
+margin-right: 8%;
+}
+
+.imga{
+}
+
+.cloud1{
+  font-family: "Segoe UI",Sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1.2em;
+}
+
+.cloud2{
+  margin-left: 43%;
+  margin-bottom: 11%;
 }
