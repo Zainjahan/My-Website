@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import '../components/style.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -20,12 +20,17 @@ import CrouselSlide from './CrouseSlide';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import AccessAlarmsIcon from '@mui/icons-material/AccessAlarms';
+import CircularProgress from '@mui/material/CircularProgress';
+
 
 
 
 
 
 export default function MainPage(props) {
+  const [index, setIndex] = useState(0);
+
+  
   // const classes = useStyles();
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -37,7 +42,6 @@ export default function MainPage(props) {
 
 
 
-  const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
