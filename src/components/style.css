@@ -889,7 +889,7 @@ img {
 }
 
 .name {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: bold;
   text-align: left;
   margin-left: 6%;
@@ -907,9 +907,11 @@ img {
 }
 
 .web {
-  margin-top: -17%;
+  margin-top: -15%;
   height: 48%;
   font-size: 146%;
+  text-align: center;
+  border-radius: 10px solid;
 }
 
 .main1 {
@@ -962,6 +964,7 @@ img {
 .item3 {
   grid-area: c;
   align-self: end;
+  margin-left: 5%;
 }
 
 .item4 {
@@ -1009,6 +1012,7 @@ img {
   font-weight: 900;
   text-transform: capitalize;
   line-height: 1.2em;
+  margin-right: 5%;
 }
 
 .using {
@@ -1310,9 +1314,13 @@ body {
 .cro{
 margin-left: 8%;  
 margin-right: 8%;
+height: 30%;
 }
 
 .imga{
+  margin-left: -42%;
+  margin-top: -5%;
+  height: 20%;
 }
 
 .cloud1{
@@ -1325,5 +1333,6 @@ margin-right: 8%;
 
 .cloud2{
   margin-left: 43%;
-  margin-bottom: 11%;
+  margin-bottom: 25%;
+  margin-top: 6%;
 }

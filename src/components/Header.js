@@ -112,8 +112,8 @@ function Header(props) {
           >
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' },width:"33%",fontFamily:"Segoe UI,Sans-serif",position:"static" }}>
-              <Link sx={{marginRight:"6%",color:"white",textDecoration:"none"}} href="/aboutus">About Us</Link>
-              <Link sx={{marginRight:"4%",color:"white",textDecoration:"none"}} href="/portfolio">Portfolio</Link>
+              <Link sx={{marginRight:"6%",color:"white",textDecoration:"none",cursor:"hover"}} href="/aboutus">About Us</Link>
+              <Link sx={{marginRight:"4%",color:"white",textDecoration:"none",cursor:"hover"}} href="/portfolio">Portfolio</Link>
             <Button
               id="demo-customized-button"
               aria-controls={open ? 'demo-customized-menu' : undefined}

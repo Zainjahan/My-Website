@@ -81,7 +81,7 @@ export default function MainPage(props) {
       <Box >
         <Grid container >
           <Grid item xs={12} lg={6} md={8}  >
-            <Item  height="10px" sx={{background:"linear-gradient(15deg,#0c1033 0,rgba(40,36,213,.7539390756302521) 100%)",marginLeft:"4%"}}>
+            <Item  height="10px" sx={{background:"linear-gradient(15deg,#0c1033 0,rgba(40,36,213,.7539390756302521) 100%)",marginLeft:"4%",borderRadius:"10px solid"}}>
               <img className='imga' src="https://atompoint.com/wp-content/uploads/2020/08/Group-37136.svg" alt='' />
               <h1 className='name'>Digital Products<br /> & Engineering</h1>
               <p className='name1'>Our expertise is building, connecting, and scaling digital <br />products. We advise, manage, architect, and develop, using<br /> agile methods to ensure on-time delivery.
@@ -136,7 +136,7 @@ export default function MainPage(props) {
           <Grid item xs={12} lg={3} md={8} >
             <Item xs={8} sx={{background:"#252844",marginLeft:"14%",marginRight:"6%"}} className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37165.svg" alt='' />
-              <h1>Cloud
+              <h1 className='web'>Cloud
                 Solutions
               </h1>
             </Item>
@@ -144,21 +144,21 @@ export default function MainPage(props) {
           <Grid item xs={12} lg={3} md={8}>
             <Item xs={8} sx={{background:"#252844",marginRight:"4%"}}className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37164.svg" alt='' />
-              <h1>Extended
+              <h1 className='web'>Extended
                 Team</h1>
             </Item>
           </Grid>
           <Grid item xs={12} lg={3} md={8} >
             <Item xs={8} sx={{background:"#252844",marginRight:"4%"}} className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37163.svg" alt='' />
-              <h1>Startup
+              <h1 className='web'>Startup
                 Co-Create</h1>
             </Item>
           </Grid>
           <Grid item xs={12} lg={3} md={8} >
             <Item xs={8} sx={{background:"#252844",marginRight:"4%"}} className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37162.svg" alt='' />
-              <h1>Custom
+              <h1 className='web'>Custom
                 Integration
               </h1>
             </Item>

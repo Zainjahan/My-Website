@@ -121,7 +121,7 @@ export default function TemporaryDrawer() {
         <div>
             {['right'].map((anchor) => (
                 <React.Fragment key={anchor}>
-                    <Button onClick={toggleDrawer(anchor, true)}>Contact Us</Button>
+                    <Button sx={{borderRadius:"10px"}}onClick={toggleDrawer(anchor, true)}>Contact Us</Button>
                     <Drawer
                         anchor={anchor}
                         open={state[anchor]}
