@@ -68,8 +68,8 @@ function AboutUs() {
       </Box>
       <br />
       <Box sx={{ marginTop: "25%" }}>
-        <h1 className='num'>In Numbers</h1><br />
-        <Grid container spacing={2} columns={16}>
+        <h1 className='num'>In Numbers</h1><br /><br/>
+        <Grid container spacing={2} columns={16} marginTop={"5%"}>
           <Grid item xs={8}>
             <h1 className='left'>Officially In <br />3<br />Countries<br />KARACHI,PK<br />LONDON,U.K<br />ATLANTA,U.S.A</h1>
           </Grid>
@@ -84,7 +84,7 @@ function AboutUs() {
       </Box>
       <Box sx={{ marginTop: "25%" }}>
         <h1 className='num'>In Numbers</h1><br/>
-        <Grid container spacing={2} columns={16}>
+        <Grid container spacing={2} columns={16} marginTop={"5%"}>
           <Grid item xs={8}>
             <h1 className='left'>Happy Family Of <br />25+<br />Countries<br />Team Members</h1>
           </Grid>
@@ -105,7 +105,7 @@ function AboutUs() {
       </Box>
       <Box sx={{ marginTop: "25%" }}>
         <h1 className='num'>In Numbers</h1><br/>
-        <Grid container spacing={2} columns={20}>
+        <Grid container spacing={2} columns={20} marginTop={"5%"}>
           <Grid item xs={8} md={8} lg={8}>
             <h1 className='left'>Evolving <br />Digital Solutions</h1>
           </Grid>
@@ -130,7 +130,7 @@ function AboutUs() {
       </Box>
       <Box sx={{ marginTop: "25%" }}>
         <h1 className='num'>In Numbers</h1><br/>
-        <Grid container spacing={2} columns={16}>
+        <Grid container spacing={2} columns={16} marginTop={"5%"}>
           <Grid item xs={8}>
             <h1 className='left'>Experts in <br />30+<br />Technologies</h1>
           </Grid>
