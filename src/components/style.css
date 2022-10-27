@@ -254,6 +254,8 @@
     height: 48%;
   }
 
+  
+  
   .main1 {
     background: #2824d5;
     position: relative;
@@ -301,6 +303,9 @@
     margin-top: -19%;
   }
 
+.classimage1{
+  height: 20px;
+}
   .item3 {
     grid-area: c;
     align-self: end;
@@ -970,6 +975,7 @@ img {
 .item4 {
   grid-area: d;
   align-self: center;
+  margin-left: "15%";
 }
 
 .item5 {
@@ -1335,4 +1341,16 @@ height: 30%;
   margin-left: 43%;
   margin-bottom: 25%;
   margin-top: 6%;
+}
+
+.web1 {
+  margin-top: -17%;
+  height: 48%;
+  width: 70%;
+  margin-left: 5%;
+}
+
+.web2 {
+  margin-top: -17%;
+  height: 48%;
 }

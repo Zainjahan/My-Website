@@ -98,8 +98,8 @@ export default function MainPage(props) {
             </Item>
           </Grid>
           <Grid item sx={{ height: "51%" }} xs={12} lg={3} md={8}>
-            <Item xs={8} sx={{ width: "69%", marginLeft: "-5%",background:"#252844" }}>
-              <img className='classimage' src="https://atompoint.com/wp-content/uploads/2020/08/Group-37159.svg" alt='' />
+            <Item xs={8} sx={{ width: "69%", marginLeft: "-5%",background:"#252844",marginTop:"-1%",height:"-5%" }}>
+              <img className='classimage1' src="https://atompoint.com/wp-content/uploads/2020/08/Group-37159.svg" alt='' />
               <h1 className='web'>Mobile<br />
                 Development
               </h1>
@@ -149,14 +149,14 @@ export default function MainPage(props) {
             </Item>
           </Grid>
           <Grid item xs={12} lg={3} md={8} >
-            <Item xs={8} sx={{background:"#252844",marginRight:"4%"}} className='last'>
+            <Item xs={8} sx={{background:"#252844",marginRight:"4%",marginLeft:"2%"}} className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37163.svg" alt='' />
               <h1 className='web'>Startup
                 Co-Create</h1>
             </Item>
           </Grid>
           <Grid item xs={12} lg={3} md={8} >
-            <Item xs={8} sx={{background:"#252844",marginRight:"4%"}} className='last'>
+            <Item xs={8} sx={{background:"#252844",marginLeft:"-5%"}} className='last'>
               <img src="https://atompoint.com/wp-content/uploads/2020/08/Group-37162.svg" alt='' />
               <h1 className='web'>Custom
                 Integration
@@ -172,7 +172,7 @@ export default function MainPage(props) {
       </div>
       <div class="wrapper">
         <div class="item1">
-          <AccessAlarmsIcon sx={{ width: "85%", height: "100%" }} />
+          <AccessAlarmsIcon sx={{ width: "25%", height: "100%" ,marginLeft:"20%"}} />
         </div>
 
         <div class="item2">
@@ -195,10 +195,10 @@ export default function MainPage(props) {
           </h6>
         </div>
         <div class="item4">
-          <AccessAlarmsIcon sx={{ width: "35%", height: "100%" }} />
+          <AccessAlarmsIcon sx={{ width: "25%", height: "100%",marginLeft:"15%" }} />
         </div>
         <div className='item5'>
-          <AccessAlarmsIcon sx={{ width: "25%", height: "100%" }} />
+          <AccessAlarmsIcon sx={{ width: "20%", height: "100%",marginLeft:"20%" }} />
 
         </div>
         <div className='item6'>
