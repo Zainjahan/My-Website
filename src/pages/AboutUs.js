@@ -70,10 +70,10 @@ function AboutUs() {
       <Box sx={{ marginTop: "25%" }}>
         <h1 className='num'>In Numbers</h1><br /><br/>
         <Grid container spacing={2} columns={16}  >
-          <Grid item xs={8} sx={{marginLeft:"-8%"}}>
+          <Grid item xs={8} sx={{marginLeft:"-8 %"}}>
             <h1 className='left'>Officially In <br />3<br />Countries<br />KARACHI,PK<br />LONDON,U.K<br />ATLANTA,U.S.A</h1>
           </Grid>
-          <Grid item xs={8} marginLeft={"5%"}>
+          <Grid item xs={8} marginLeft={"47%"} marginTop={"-17%"}>
             <img width={"109%"} height={"80%"} src="https://atompoint.com/wp-content/uploads/2020/07/Group-36193@2x-2048x1022.png" alt="" />
 
 

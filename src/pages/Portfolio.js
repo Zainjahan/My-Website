@@ -185,7 +185,7 @@ export default function Portfolio() {
       </Box>
       <Box>
         <h1 className='num'>And More...</h1>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} marginTop={"5%"}>
           <Grid item xs={6} md={6} lg={6}>
             <h1 className='left'><strong>60K</strong> Website Made <br />with Our<br /> Products</h1><br />
             <h1 className='left'><strong>20+</strong> Cloud<br />Solutions</h1>
